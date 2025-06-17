@@ -4,17 +4,6 @@ import { map, Observable, switchMap } from 'rxjs';
 
 import { Task } from '../models/task.model';
 
-// export interface Task {
-//   id: number;
-//   title: string;
-//   description: string;
-//   priority: 'low' | 'medium' | 'high';
-//   completed: boolean;
-//   createdAt: string;
-//   dueDate: string;
-//   tags: string[] | string;
-// }
-
 @Injectable({
   providedIn: 'root',
 })
@@ -41,6 +30,7 @@ export class MyServiceService {
       dueDate: taskData.dueDate
         ? new Date(taskData.dueDate)
         : new Date().toISOString(),
+      tags: [],
     };
 
     return this.http.post<Task>(this.BASE_URL, newTask);

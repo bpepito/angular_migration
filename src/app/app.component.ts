@@ -3,17 +3,6 @@ import { MyServiceService } from './service/my-service.service';
 
 import { Task } from './models/task.model';
 
-// export interface Task {
-//   id: number;
-//   title: string;
-//   description: string;
-//   priority: 'low' | 'medium' | 'high';
-//   completed: boolean;
-//   createdAt: string;
-//   dueDate: string;
-//   tags: string[] | string;
-// }
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
