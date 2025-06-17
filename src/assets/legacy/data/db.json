@@ -33,10 +33,10 @@
       "title": "Setup Development Environment",
       "description": "Install Node.js, Angular CLI, and other necessary tools",
       "priority": "low",
-      "completed": true,
+      "completed": false,
       "createdAt": "2025-06-13T07:00:00.000Z",
       "dueDate": "2025-06-16T23:59:59.000Z",
-      "completedAt": "2025-06-13T10:30:00.000Z",
+      "completedAt": null,
       "tags": [
         "setup",
         "tools",
@@ -69,7 +69,8 @@
         "design",
         "ui",
         "ux"
-      ]
+      ],
+      "completedAt": null
     }
   ],
   "users": [
